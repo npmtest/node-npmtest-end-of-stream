@@ -1,6 +1,6 @@
 # npmtest-end-of-stream
 
-#### test coverage for  [end-of-stream (v1.4.0)](https://github.com/mafintosh/end-of-stream)  [![npm package](https://img.shields.io/npm/v/npmtest-end-of-stream.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-end-of-stream) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-end-of-stream.svg)](https://travis-ci.org/npmtest/node-npmtest-end-of-stream)
+#### basic test coverage for  [end-of-stream (v1.4.0)](https://github.com/mafintosh/end-of-stream)  [![npm package](https://img.shields.io/npm/v/npmtest-end-of-stream.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-end-of-stream) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-end-of-stream.svg)](https://travis-ci.org/npmtest/node-npmtest-end-of-stream)
 
 #### Call a callback when a readable/writable/duplex stream has completed or failed.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-end-of-stream/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-end-of-stream/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-end-of-stream/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-end-of-stream/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-end-of-stream/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-end-of-stream/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-end-of-stream/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-end-of-stream/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-end-of-stream/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-end-of-stream/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-end-of-stream/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-end-of-stream/build/coverage.html/index.html)
 
@@ -81,7 +81,8 @@
     "scripts": {
         "test": "node test.js"
     },
-    "version": "1.4.0"
+    "version": "1.4.0",
+    "bin": {}
 }
 ```
 
